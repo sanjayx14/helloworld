@@ -1,0 +1,28 @@
+
+#1 
+Webpack.config.js  - has only port number on whicj UI server runs. On production it should be 8080
+
+
+#2
+In the following index.js update the Java Server URL
+
+D:\Sanjay-Projects\TCL\Backup\2018-05-May-3rd\iot-web\src\actions\index.js
+
+
+#3 Update BaseApplication.java to update the Origin of the Web server and IP address that will access the Services
+
+tcl_iot/iot-services/service-framework/src/main/java/com/iot/services/framework/app/BaseApplication.java 
+
+
+
+
+
+
+TCL Test Server Location --
+
+/utilities_data_disk/context/web/tcl_iot/iot-services/service-framework/src/main/java/com/iot/services/framework/app
+
+
+
+
+
